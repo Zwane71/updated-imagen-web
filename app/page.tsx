@@ -1,11 +1,12 @@
-import Navbar from "@/components/Navbar/Navbar";
-import Image from "next/image";
+
+import HeaderSection from "@/components/header/Header";
 
 export default function Home() {
   return (
    <div>
     <main>
-      <Navbar />
+     
+      <HeaderSection />
     </main>
    </div>
   );
